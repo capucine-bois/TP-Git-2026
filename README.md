@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que Git ?
 
-Git est un logiciel de gestion de versions permettant de suivre l’évolution d’un projet, de conserver un historique et de collaborer efficacement.
+Git est un logiciel de gestion de versions permettant de suivre l'évolution d'un projet, de conserver un historique et de collaborer efficacement.
 
 Il est utilisé partout : projets étudiants, stages, entreprises, open source…
 
@@ -32,7 +32,7 @@ brew install git
 
 ```
 
-Vous pouvez aussi l’obtenir via Xcode Command Line Tools (Git est inclus).
+Vous pouvez aussi l'obtenir via Xcode Command Line Tools (Git est inclus).
 
 ## **Windows**
 
@@ -56,22 +56,37 @@ git config --global user.email "supermail@gmail.com"
 
 # Clonage via Token GitHub
 
-GitHub n’autorise plus les mots de passe pour les opérations Git.
+GitHub n'autorise plus les mots de passe pour les opérations Git.
 
 Vous devez utiliser un **Personal Access Token (PAT)**.
 
-## 1. Créer un token GitHub
+## 1. Être invité(e) sur le dépôt
 
-GitHub → Settings → Developer Settings → Fine-grained tokens
+⚠️ **Important : avant de pouvoir push la moindre modification**, les formateurs doivent passer vous voir pour vous inviter à participer au dépôt GitHub en tant que collaborateur. Il faut donc demander cette étape explicitement dès le début du TP (lever la main et faites-nous un grand sourire, on saura de quoi il s'agit ☺️).
 
-Émettre un token avec les permissions :
+Une fois l'invitation envoyée, **chaque membre du binôme** doit l'accepter :
 
-- **Contents: Read/Write**
+- soit en cliquant sur le lien reçu par **mail**,
+- soit directement depuis la page du dépôt sur GitHub (un bandeau d'invitation s'affiche en haut de la page une fois connecté).
+
+Sans cette acceptation, vos commandes `git push` seront refusées même avec un token valide.
+
+## 2. Créer un token GitHub
+
+GitHub → Settings → Developer Settings → Personal access tokens → **Tokens (classic)**
+
+⚠️ Utilisez bien un token **classique** (*classic*), **pas** un *fine-grained token*.
+
+Émettre un token avec la permission :
+
+- **repo** (accès complet aux dépôts privés)
 - Expiration courte (1–7 jours pour le TP)
+
+<img width="638" height="381" alt="image" src="https://github.com/user-attachments/assets/e7ac3f43-92cf-4fde-aefd-b4dc552309c6" />
 
 Conservez-le ! Vous ne pourrez plus le voir après création.
 
-## 2. Cloner un dépôt avec un token
+## 3. Cloner un dépôt avec un token
 
 ```bash
 git clone https://github.com/<organisation>/<repo>.git
@@ -85,7 +100,6 @@ Username: votre identifiant GitHub
 Password: collez votre token
 
 ```
-⚠️ Important : avant de pouvoir push vos modifications, les formateurs devront ajouter manuellement votre compte GitHub en tant que collaborateur sur le dépôt. Il faudra donc demander cette étape explicitement avant de tenter le premier push (lever la main et faites nous un grand sourire on saura de quoi il s'agit ☺️).
 
 ---
 
@@ -133,7 +147,7 @@ git pull
 
 ## 5. Modifier : Hello INSA
 
-L’autre membre modifie → commit → push → pull.
+L'autre membre modifie → commit → push → pull.
 
 ---
 

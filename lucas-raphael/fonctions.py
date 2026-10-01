@@ -16,6 +16,7 @@ def noms_binome():
     """
     print("Mohamed")
     print("Noah")
+    print("Ui")
 
 a = 2
 b = 1

@@ -95,6 +95,8 @@ git clone https://github.com/<organisation>/<repo>.git
 
 Lorsque Git demande :
 
+"petite modif"
+
 ```
 Username: votre identifiant GitHub
 Password: collez votre token

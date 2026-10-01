@@ -1,12 +1,13 @@
 
 def addition(x, y):
     """Retourne la somme de x et y"""
-    return x + y
+    """ahhhhhhhhh"""
+    return x + y + 10
 
 
 def soustraction(x, y):
     """Retourne la différence de x et y"""
-    return x-y
+    return x-y+67
 
 
 def noms_binome():
@@ -15,7 +16,7 @@ def noms_binome():
     Attention, chacun écrit la ligne pour afficher son nom
     """
     print("Mohamed")
-    print("Noah")
+    print("Nocr7ah")
 
 a = 2
 b = 1

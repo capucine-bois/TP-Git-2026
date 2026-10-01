@@ -19,7 +19,7 @@ def noms_binome():
     print("Mohamed Ayane")
     print("Noah")
 
-a = 2
+a = 2   
 b = 1
 
 print(f"La somme de {a} et {b} vaut {addition(a, b)}")

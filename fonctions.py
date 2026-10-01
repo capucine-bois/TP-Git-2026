@@ -6,7 +6,7 @@ def addition(x, y):
 
 def soustraction(x, y):
     """Retourne la différence de x et y"""
-    return x-y
+    return x-y - 5
 
 
 def noms_binome():

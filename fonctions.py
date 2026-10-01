@@ -1,11 +1,14 @@
 
 def addition(x, y):
     """Retourne la somme de x et y"""
+    #Commentaire Robin
+    #Commentaire 2 Robin
     return x + y
 
 
 def soustraction(x, y):
     """Retourne la différence de x et y"""
+    #Nsm la modélisation
     return x-y
 
 
@@ -14,7 +17,8 @@ def noms_binome():
     Affiche les noms des membres du binôme
     Attention, chacun écrit la ligne pour afficher son nom
     """
-    print("Mohamed")
+    print("Youssef")
+    print("Robin")
     print("Noah")
 
 a = 2

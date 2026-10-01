@@ -14,8 +14,8 @@ def noms_binome():
     Affiche les noms des membres du binôme
     Attention, chacun écrit la ligne pour afficher son nom
     """
-    print("Mohamed")
-    print("Noah")
+    print("Iliann")
+    print("Alex")
 
 a = 2
 b = 1

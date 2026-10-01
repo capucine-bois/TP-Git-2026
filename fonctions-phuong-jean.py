@@ -7,6 +7,7 @@ def addition(x, y):
 
 def soustraction(x, y):
     """Retourne la différence de x et y"""
+    print("**** La super soustraction ****")
     return x-y
 
 

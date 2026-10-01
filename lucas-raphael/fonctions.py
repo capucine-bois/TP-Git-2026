@@ -14,15 +14,9 @@ def noms_binome():
     Affiche les noms des membres du binôme
     Attention, chacun écrit la ligne pour afficher son nom
     """
-<<<<<<< HEAD
     print("Lucas")
-<<<<<<< HEAD
-=======
     print("Bijour")
->>>>>>> eacc673 (feat modif : bijour)
-=======
     print("Rapha")
->>>>>>> 43fd27a4516122d98f141857f43bc54472ab5766
     print("Noah")
     print("Ui")
 
